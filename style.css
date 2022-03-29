@@ -1,0 +1,39 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a:link,
+a:visited,
+a:active {
+    color: black;
+}
+
+a:hover {
+    color: red;
+}
+
+
+
+footer {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    gap: 7%;
+    bottom: 0;
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: rgb(24, 85, 143);
+}
+
+footer>div {
+    width: 12%;
+}
+
+footer>a {
+    width: 12%;
+}
